@@ -1,9 +1,26 @@
-﻿<Application x:Class="DaymiansBoilerplateWPF.App"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:DaymiansBoilerplateWPF"
-             StartupUri="MainWindow.xaml">
+<Application x:Class="DaymsWPFBoiler.App" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:local="clr-namespace:DaymsWPFBoiler" 
+             xmlns:res="clr-namespace:DaymsWPFBoiler.Resources"
+             StartupUri="MainWindow.xaml" 
+             d1p1:Ignorable="d" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:d1p1="http://schemas.openxmlformats.org/markup-compatibility/2006">
+    
     <Application.Resources>
-         
+      
+        <ResourceDictionary>
+        
+            <!-- VMLocator to be referenced as "Locator" -->
+            <vm:ViewModelLocator x:Key="Locator" 
+                                 d:IsDataSource="True" 
+                                 xmlns:vm="clr-namespace:DaymsWPFBoiler.ViewModels" />
+
+            <res:CommonImages x:Key="CommonImages" />
+
+        </ResourceDictionary>
+      
     </Application.Resources>
+    
 </Application>

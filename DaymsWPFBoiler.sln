@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaymiansBoilerplateWPF", "DaymiansBoilerplateWPF\DaymiansBoilerplateWPF.csproj", "{59FC81B6-5334-4615-864F-9A4675079544}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaymsWPFBoiler.WPF", "DaymiansBoilerplateWPF\DaymsWPFBoiler.WPF.csproj", "{59FC81B6-5334-4615-864F-9A4675079544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaymsWPFBoiler.Data", "DaymsWPFBoiler.Data\DaymsWPFBoiler.Data.csproj", "{E1FF4441-F5CB-43C7-8EF4-0B122C2EE9FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{59FC81B6-5334-4615-864F-9A4675079544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59FC81B6-5334-4615-864F-9A4675079544}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59FC81B6-5334-4615-864F-9A4675079544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1FF4441-F5CB-43C7-8EF4-0B122C2EE9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1FF4441-F5CB-43C7-8EF4-0B122C2EE9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1FF4441-F5CB-43C7-8EF4-0B122C2EE9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1FF4441-F5CB-43C7-8EF4-0B122C2EE9FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

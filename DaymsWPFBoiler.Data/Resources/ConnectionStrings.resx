@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DB_AddColumn" xml:space="preserve">
+    <value> ADD COLUMN </value>
+    <comment>Command to add a column to a table in DB</comment>
+  </data>
+  <data name="DB_AlterTable" xml:space="preserve">
+    <value>ALTER TABLE </value>
+    <comment>Command to alter a table in DB</comment>
+  </data>
+  <data name="DB_CloseParenthesis" xml:space="preserve">
+    <value>)</value>
+    <comment>Close parenthesis for DB commands</comment>
+  </data>
+  <data name="DB_ColType_Blob" xml:space="preserve">
+    <value>BLOB</value>
+    <comment>Column type in DB</comment>
+  </data>
+  <data name="DB_ColType_Bool" xml:space="preserve">
+    <value>BOOLEAN</value>
+    <comment>Column type in DB</comment>
+  </data>
+  <data name="DB_ColType_DateTime" xml:space="preserve">
+    <value>DATETIME</value>
+    <comment>Column type in DB</comment>
+  </data>
+  <data name="DB_ColType_Int" xml:space="preserve">
+    <value>INTEGER</value>
+    <comment>Column type in DB</comment>
+  </data>
+  <data name="DB_ColType_Varchar" xml:space="preserve">
+    <value>VARCHAR</value>
+    <comment>Column type in DB</comment>
+  </data>
+  <data name="DB_Comma" xml:space="preserve">
+    <value>,</value>
+    <comment>Comma for DB commands</comment>
+  </data>
+  <data name="DB_Constraints_DateTime" xml:space="preserve">
+    <value>DATETIME NOT NULL DEFAULT(strftime('%Y-%m-%d %H:%M:%f', 'now'))</value>
+    <comment>Constraints for DateTime column</comment>
+  </data>
+  <data name="DB_Constraints_DateTimeDefault" xml:space="preserve">
+    <value>DATETIME DEFAULT(strftime('%Y-%m-%d %H:%M:%f', 'now'))</value>
+    <comment>Constraints for DateTime column</comment>
+  </data>
+  <data name="DB_Constraints_Guid" xml:space="preserve">
+    <value>BLOB PRIMARY KEY UNIQUE NOT NULL</value>
+    <comment>Constraints for Guid form of ID column</comment>
+  </data>
+  <data name="DB_Constraints_Id" xml:space="preserve">
+    <value>INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE NOT NULL</value>
+    <comment>Constraints for ID column</comment>
+  </data>
+  <data name="DB_Constraints_Name" xml:space="preserve">
+    <value>DEFAULT [Un-named]</value>
+    <comment>Constraints for Name column</comment>
+  </data>
+  <data name="DB_Constraint_NotNull" xml:space="preserve">
+    <value>NOT NULL</value>
+    <comment>Constraint for column</comment>
+  </data>
+  <data name="DB_Constraint_PrimaryKey" xml:space="preserve">
+    <value>PRIMARY KEY</value>
+    <comment>Constraint for column</comment>
+  </data>
+  <data name="DB_Constraint_Unique" xml:space="preserve">
+    <value>UNIQUE</value>
+    <comment>Constraint for column</comment>
+  </data>
+  <data name="DB_CreateReplaceView" xml:space="preserve">
+    <value>DROP VIEW IF EXISTS {0}; CREATE VIEW {0} AS </value>
+    <comment>Command to create or replace a view in DB</comment>
+  </data>
+  <data name="DB_CreateTable" xml:space="preserve">
+    <value>CREATE TABLE </value>
+    <comment>Command to create a table in DB</comment>
+  </data>
+  <data name="DB_CreateTrigger" xml:space="preserve">
+    <value>CREATE TRIGGER </value>
+    <comment>Command to create a trigger in DB</comment>
+  </data>
+  <data name="DB_CreateUniqueIndex" xml:space="preserve">
+    <value>CREATE UNIQUE INDEX </value>
+    <comment>Command to create a unique index in DB</comment>
+  </data>
+  <data name="DB_CreateView" xml:space="preserve">
+    <value>CREATE VIEW IF NOT EXISTS {0} AS </value>
+    <comment>Command to create a view in DB</comment>
+  </data>
+  <data name="DB_DeleteAction_Cascade" xml:space="preserve">
+    <value>ON DELETE CASCADE</value>
+    <comment>For References</comment>
+  </data>
+  <data name="DB_DeleteAction_SetNull" xml:space="preserve">
+    <value>ON DELETE SET NULL</value>
+    <comment>For References</comment>
+  </data>
+  <data name="DB_DropTrigger" xml:space="preserve">
+    <value>DROP TRIGGER </value>
+    <comment>Command to drop a trigger in DB</comment>
+  </data>
+  <data name="DB_IfExists" xml:space="preserve">
+    <value>IF EXISTS </value>
+    <comment>Command condition to check if DB component exists</comment>
+  </data>
+  <data name="DB_IfNotExists" xml:space="preserve">
+    <value>IF NOT EXISTS </value>
+    <comment>Command condition to check if DB component does not exist</comment>
+  </data>
+  <data name="DB_OpenParenthesis" xml:space="preserve">
+    <value>(</value>
+    <comment>Open parenthesis for DB commands</comment>
+  </data>
+  <data name="DB_Pragma_ForeignKeysOff" xml:space="preserve">
+    <value>PRAGMA foreign_keys = 0;</value>
+    <comment>Command to turn off foreign key checks in DB</comment>
+  </data>
+  <data name="DB_Pragma_ForeignKeysOn" xml:space="preserve">
+    <value>PRAGMA foreign_keys = 1;</value>
+    <comment>Command to turn on foreign key checks in DB</comment>
+  </data>
+  <data name="DB_Pragma_TableInfo" xml:space="preserve">
+    <value>PRAGMA table_info</value>
+    <comment>Command to retrieve columns in table</comment>
+  </data>
+  <data name="DB_References" xml:space="preserve">
+    <value>REFERENCES</value>
+    <comment>References for DB Foreign Key commands</comment>
+  </data>
+  <data name="DB_Semicolon" xml:space="preserve">
+    <value>;</value>
+    <comment>Semicolon for DB commands</comment>
+  </data>
+  <data name="DB_SqliteMaster_Index" xml:space="preserve">
+    <value>SELECT sql FROM sqlite_master WHERE type='index' AND sql IS NOT NULL AND tbl_name='{0}';</value>
+    <comment>The command to use to retrieve index script from sqlite_master</comment>
+  </data>
+  <data name="DB_SqliteMaster_Table" xml:space="preserve">
+    <value>SELECT sql FROM sqlite_master WHERE type='table' AND name='{0}';</value>
+    <comment>The command to use to retrieve table script from sqlite_master</comment>
+  </data>
+  <data name="DB_SqliteMaster_Trigger" xml:space="preserve">
+    <value>SELECT sql FROM sqlite_master WHERE type='trigger' AND sql IS NOT NULL AND tbl_name='{0}';</value>
+    <comment>The command to use to retrieve index script from sqlite_master</comment>
+  </data>
+  <data name="DB_TableName_Roles" xml:space="preserve">
+    <value>Roles</value>
+    <comment>The TableName for the Roles Table in the DB.</comment>
+  </data>
+  <data name="DB_TableName_Users" xml:space="preserve">
+    <value>Users</value>
+    <comment>The TableName for the Users Table in the DB.</comment>
+  </data>
+  <data name="DB_Trigger_AfterUpdate" xml:space="preserve">
+    <value> AFTER UPDATE OF </value>
+    <comment>Command to help with creating a trigger</comment>
+  </data>
+  <data name="DB_Trigger_DateModified" xml:space="preserve">
+    <value>_DateModifiedTrigger</value>
+    <comment>Postfix for our Date Modified Triggers</comment>
+  </data>
+  <data name="DB_Trigger_Insert" xml:space="preserve">
+    <value>_InsertTrigger</value>
+    <comment>Postfix for our Insert Triggers</comment>
+  </data>
+  <data name="DB_Trigger_UpdateStatement" xml:space="preserve">
+    <value> ON {0}
+      FOR EACH ROW
+BEGIN
+UPDATE {0}
+   SET DateModified = (strftime('%Y-%m-%d %H:%M:%f', 'now') )
+ WHERE Id = NEW.Id;
+END;</value>
+  </data>
+</root>
